@@ -1,10 +1,8 @@
 {
-  "name": "jg-coding-dark-theme",
-  "displayName": "jg-coding-dark-theme",
-  "publisher": "jhonigiacomolli",
-  "icon": "assets/icon.png",
-  "description": "Minimal dark theme with green and purple details",
-  "version": "0.0.12",
+  "name": "rufendev-green-purple",
+  "displayName": "rufendev-green-purple",
+  "description": "My personal mini-fork of the VSC theme",
+  "version": "0.0.1",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -14,10 +12,20 @@
   "contributes": {
     "themes": [
       {
-        "label": "JG Coding Dark Theme",
+        "label": "RufenDev Green & Purple",
         "uiTheme": "vs-dark",
-        "path": "./themes/JG Coding Dark Theme-color-theme.json"
+        "path": "./themes/rufendev-green-purple-color-theme.json"
       }
     ]
+  },
+  "icon": "assets/icon.png",
+  "author": {
+    "name": "Diego Ruiz",
+    "email": "rufen.dev@gmail.com",
+    "url": "https://github.com/RufenDev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RufenDev/rufendev-green-purple"
   }
 }
