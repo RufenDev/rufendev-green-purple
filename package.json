@@ -27,5 +27,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/RufenDev/rufendev-green-purple"
-  }
+  },
+  "publisher": "rufendev-extensions"
 }
